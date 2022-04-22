@@ -1,0 +1,179 @@
+
+PYTHON
+
+===========================================================================================/
+
+História do Python
+- Criado por Guido Van Rossum;
+- Desenvolveu o Python à partir de uma ideia de usar algo fácil como Shell
+	mas complexo em termos de funcionalidade como C
+	(um meio-termo, fácil de entender e poderoso);
+- Lançou em um ano após o início do desenvolvimento, em 1990;
+
+===========================================================================================/
+
+Por que Python?
+3 razões importantes:
+- Simplicidade;
+- Utilizado em grandes empresas;
+- Comunidade gigante, o que resulta em popularização 
+	e fomente a ajuda entre a comunidade;
+
+===========================================================================================/
+
+Carreira em Python
+- Automação;
+	- Selenium;
+	- PyTest;
+	- PyUnit;
+
+- Desenvolvimento Web;
+	- Django
+	- Flask;
+	- Web2Py;
+
+- Hacker Ético;
+	- Scapy;
+	- FlowGrep;
+	- SubBrute;
+
+- Desenvolvimento de Jogos;
+	- PyGame;
+	- PyOpenGL
+	- Kivy;
+
+- Cientista de Dados;
+	- Pandas;
+	- NumPy;
+	- Scikit Learn;
+
+OBS: Não se consegue nada apenas com python, 
+	tal qual não se consegue apenas com outra coisa e sem python;
+
+===========================================================================================/
+
+Text Editors
+
+- Vim;
+- NotePad++;
+
+
+IDE's = Integrated Development Environments
+
+- Atom;
+- PyCharm;
+- SublimeText;
+- Visual Studio Code;
+- Replit (online);
+
+===========================================================================================/
+
+Vantagens Replit:
+
+- Em browser;
+- Colaboração em tempo real;
+- Integração com Github;
+- + de 50 linguagens de programação;
+- Eles hospedam e executam por você;
+- Documentação;
+- Todos os projetos são salvos online;
+
+===========================================================================================/
+
+Data Types
+- Text
+	- String = Str (texto) (usar '' ou "")
+-Numbers
+	- Integer = Inteiro (1,2,3...)
+	- Float = Fração (3.5, 4.7, 10.6...)
+- Boolean Type
+	- Bool = true or false;
+
+===========================================================================================/
+
+Variables
+	"containers" que armazenam valores, textos;
+	Basta nomear a variável que ela já armazena o valor dito;
+		Exemplo: x = 2;
+		print(x + x)
+
+===========================================================================================/
+
+Operadores de Comparação
+	== Igual
+	!= Diferente
+	> Maior que
+	< Menor que
+	>= Maior ou igual a
+	=< Menor ou igual a
+
+===========================================================================================/
+
+Operadores de Atribuição
+
+	= Igual
+	+= Mais igual
+	-= Menos igual
+	%= Restante da divisão
+	etc.
+
+===========================================================================================/
+
+If, Else and Elif: Condicionais.
+
+Forma encurtada: if 20 <= valor < 40:
+
+Operador ternário exemplo: resultado = 'Voto permitido' if idade >= 16 else 'Voto não Permitido'
+
+===========================================================================================/
+
+
+
+===========================================================================================/
+
+Códigos em funcionamento:
+
+	nome = input('Qual é o seu nome: ');
+	idade = input('Qual a sua idade: ');
+	idade = str(idade)
+	cidade = input('Onde você mora: ');
+
+	print('O ' + nome + ' tem ' + idade + ' anos de idade e mora em ' + cidade + '.')
+	output: O Maicon tem 17 anos de idade e mora na cidade de Santa Rosa.
+
+	-----------------------------------------------------------------------------------/
+
+	fruta = 'Abacate'
+	#index   012345
+	print(fruta[2:6])
+	print(fruta[-1])
+
+	valor = 99.75
+	valor = str(valor)
+	print(valor[2:])
+	print(valor[:2])
+
+	---------------------------------------------------------------------------------/
+
+	nome = 'Marcos';
+	sobrenome = 'Silva'
+	profissão = 'Programador'
+
+	texto = 'O ' + nome + ' ' + sobrenome + ' é um excelente '  + '[' + profissão + ']' + '.';
+	print(texto)
+
+	texto2 = f'O {nome} {sobrenome} é um excelente [{profissão}].'
+	print(texto2)
+
+	------------------------------------------------------------------------------------/
+	linhas = 6
+	colunas = 6
+	simbolo = '@'
+
+	for l in range(linhas):
+		for c in range(colunas):
+        		print(simbolo, end='')
+    		print()
+
+
+
