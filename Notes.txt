@@ -175,5 +175,6 @@ Códigos em funcionamento:
         		print(simbolo, end='')
     		print()
 
+	------------------------------------------------------------------------------------/
 
-
+	Function < Module < Package < Library
