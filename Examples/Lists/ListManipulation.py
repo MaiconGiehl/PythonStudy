@@ -7,5 +7,5 @@ cidade3 = 'Salvador'
 
 cidades = ['Rio de Janeiro', 'São Paulo', 'Salvador', 'Goiânia']
 
-cidades[0] = 'Brasilia'
+cidades[0] = 'Santa Rosa'
 print(cidades)
